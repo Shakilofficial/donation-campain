@@ -1,0 +1,122 @@
+[
+    {
+      "picture": "https://i.ibb.co/fv9SfqT/Education.png",
+      "title": "Supporting Underprivileged Children's Education",
+      "category": "education",
+      "category_bg": "#BEFFF7",
+      "card_bg": "#9EDDFF",
+      "text_btn": "#6499E9",
+      "description": "Help provide books, stationery, and tuition for children in need.",
+      "price": 25
+    },
+    {
+      "picture": "https://i.ibb.co/Jz4nkhJ/Clothing.png",
+      "title": "Providing Warm Clothing for the Homeless",
+      "category": "clothing",
+      "category_bg": "#FFEADD",
+      "card_bg": "#FF8989",
+      "text_btn": "#FF6666",
+      "description": "Donate to provide winter clothing and blankets to the homeless.",
+      "price": 20
+    },
+    {
+      "picture": "https://i.ibb.co/ygtd3qF/Food.png",
+      "title": "Fighting Hunger in Our Community",
+      "category": "food",
+      "category_bg": "#C5DFF8",
+      "card_bg": "#7895CB",
+      "text_btn": "#4A55A2",
+      "description": "Support our food bank to feed families in need.",
+      "price": 30
+    },
+    {
+      "picture": "https://i.ibb.co/mTzt14F/Health.png",
+      "title": "Providing Medical Supplies to Rural Clinics",
+      "category": "health",
+      "category_bg": "#D0E7D2",
+      "card_bg": "#79AC78",
+      "text_btn": "#618264",
+      "description": "Help us deliver essential medical supplies to underserved areas.",
+      "price": 35
+    },
+    {
+      "picture": "https://i.ibb.co/mTzt14F/Health.png",
+      "title": "Emergency Relief for Natural Disasters",
+      "category": "health",
+      "category_bg": "#D0E7D2",
+      "card_bg": "#79AC78",
+      "text_btn": "#618264",
+      "description": "Support disaster victims with immediate relief assistance.",
+      "price": 40
+    },
+    {
+      "picture": "https://i.ibb.co/fv9SfqT/Education.png",
+      "title": "Educational Scholarships for Bright Students",
+      "category": "education",
+      "category_bg": "#BEFFF7",
+      "card_bg": "#9EDDFF",
+      "text_btn": "#6499E9",
+      "description": "Help talented students achieve their academic dreams.",
+      "price": 50
+    },
+    {
+      "picture": "https://i.ibb.co/Jz4nkhJ/Clothing.png",
+      "title": "Needy People Clothing",
+      "category": "clothing",
+      "category_bg": "#FFEADD",
+      "card_bg": "#FF8989",
+      "text_btn": "#FF6666",
+      "description": "Donate to provide warm blankets to those in need during winter.",
+      "price": 45
+    },
+    {
+      "picture": "https://i.ibb.co/ygtd3qF/Food.png",
+      "title": "Nutritious Meals for School Children",
+      "category": "food",
+      "category_bg": "#C5DFF8",
+      "card_bg": "#7895CB",
+      "text_btn": "#4A55A2",
+      "description": "Support school meal programs to combat child hunger.",
+      "price": 15
+    },
+    {
+      "picture": "https://i.ibb.co/fv9SfqT/Education.png",
+      "title": "Empowering Women through Vocational Training",
+      "category": "education",
+      "category_bg": "#BEFFF7",
+      "card_bg": "#9EDDFF",
+      "text_btn": "#6499E9",
+      "description": "Help women gain skills for economic independence.",
+      "price": 55
+    },
+    {
+      "picture": "https://i.ibb.co/Jz4nkhJ/Clothing.png",
+      "title": "Warmth for Winter: Blanket Drive",
+      "category": "clothing",
+      "category_bg": "#FFEADD",
+      "card_bg": "#FF8989",
+      "text_btn": "#FF6666",
+      "description": "Donate to provide warm blankets to those in need during winter.",
+      "price": 25
+    },
+    {
+      "picture": "https://i.ibb.co/ygtd3qF/Food.png",
+      "title": "Emergency Food Aid for Displaced Families",
+      "category": "food",
+      "category_bg": "#C5DFF8",
+      "card_bg": "#7895CB",
+      "text_btn": "#4A55A2",
+      "description": "Support families displaced by conflict with essential food supplies.",
+      "price": 35
+    },
+    {
+      "picture": "https://i.ibb.co/mTzt14F/Health.png",
+      "title": "Medical Care for Abandoned Animals",
+      "category": "health",
+      "category_bg": "#D0E7D2",
+      "card_bg": "#79AC78",
+      "text_btn": "#618264",
+      "description": "Help provide medical care and shelter for abandoned animals.",
+      "price": 30
+    }
+  ]
