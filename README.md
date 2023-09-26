@@ -1,4 +1,4 @@
-# Features of our Project ---->
+# Features of this Project ---->
 
 - Category Search: Users can type a category into the search bar and click search. This filters and displays only donations in that category on the homepage, helping users find specific causes effortlessly.
 
