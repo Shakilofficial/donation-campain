@@ -1,4 +1,4 @@
-const Banner = () => {
+const Banner = ({ searchInput, onSearchInputChange, onSearchClick }) => {
   return (
     <div>
       <div className="bg-[url('https://i.ibb.co/FwTHwq2/people-meeting-community-center.jpg')] bg-cover bg-center h-[600px] text-black">
@@ -9,10 +9,17 @@ const Banner = () => {
           <div className="flex">
             <input
               type="text"
-              placeholder="Search here...."
+              placeholder="Search by category..."
+              value={searchInput}
+              onChange={onSearchInputChange}
               className="px-2 py-2 border-2 rounded-md bg-white text-gray-800"
             />
-            <button className="px-6 py-2 rounded-md bg-red-500 text-white">Search</button>
+            <button
+              onClick={onSearchClick}
+              className="px-6 py-2 rounded-md bg-red-500 text-white"
+            >
+              Search
+            </button>
           </div>
         </div>
       </div>
