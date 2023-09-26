@@ -8,7 +8,7 @@ const Home = () => {
   const [filteredDonations, setFilteredDonations] = useState([]);
 
   useEffect(() => {
-    fetch('/public/donation.json')
+    fetch('/donation.json')
       .then((res) => res.json())
       .then((data) => {
         setDonations(data);

@@ -1,10 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../Layout/MainLayout";
+import Detail from "../Pages/Detail/Detail";
+import Donation from "../Pages/Donation/Donation";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Home from "../Pages/Home/Home";
 import Statistics from "../Pages/Statistics/Statistics";
-import ErrorPage from "../Pages/ErrorPage/ErrorPage";
-import Donation from "../Pages/Donation/Donation";
-import Detail from "../Pages/Detail/Detail";
 
 const myCreatedRoute = createBrowserRouter([
     {
@@ -27,7 +27,7 @@ const myCreatedRoute = createBrowserRouter([
             {
                 path: "/detail/:id",
                 element:<Detail></Detail> ,
-                loader:()=>fetch('/public/donation.json')
+                loader:()=>fetch('/donation.json')
             }
         ]
     }
