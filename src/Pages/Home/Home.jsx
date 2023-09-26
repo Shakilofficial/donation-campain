@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Donation from "../../components/Donation/Donation";
 import Banner from "../../components/Header/Banner/Banner";
+import DonationItem from "../../components/DonationItem/DonationItem";
 
 const Home = () => {
 
@@ -20,7 +20,7 @@ const Home = () => {
             </div>
             <div className="grid px-4 md:px-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-16 gap-4">
                 {
-                    donations.map(donation => <Donation key={donation.category} donation={donation} ></Donation>  )
+                    donations.map(donation => <DonationItem key={donation.id} donation={donation} ></DonationItem>  )
                 }
             </div>
         </div>
