@@ -6,11 +6,11 @@ const DonationItem = ({ donation }) => {
   return (
     <div>
       <Link to={`/detail/${id}`}>
-        <div className="rounded-lg h-[300px]" style={{ backgroundColor: category_bg }}>
+        <div className="rounded-lg h-[310px] max-w[425px]" style={{ backgroundColor: category_bg }}>
           <div>
-            <img className="w-full" src={picture} alt="" />
+            <img className="w-full h-[200px]" src={picture} alt="" />
           </div>
-          <div className="p-3 space-y-2">
+          <div className="p-4 space-y-2">
             <button
               className="text-sm font-semibold px-2 py-1 rounded-md"
               style={{ backgroundColor: card_bg, color: text_btn }}

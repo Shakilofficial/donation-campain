@@ -1,12 +1,24 @@
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const DetailCard = ({ detail }) => {
-  const { picture, title, text_btn,category_bg, card_bg,category, description, price } = detail;
+  const {
+    picture,
+    title,
+    text_btn,
+    category_bg,
+    card_bg,
+    category,
+    description,
+    price,
+  } = detail;
 
   const handleDonate = () => {
     const addedDonatesArray = [];
     const donateItems = JSON.parse(localStorage.getItem("donates")) || [];
     addedDonatesArray.push(...donateItems, detail);
     localStorage.setItem("donates", JSON.stringify(addedDonatesArray));
-    alert("added");
+    toast("Successfully Donated");
   };
   return (
     <div className="px-4 my-4">
@@ -27,6 +39,7 @@ const DetailCard = ({ detail }) => {
         <h2 className="font-bold text-4xl">{title} </h2>
         <p>{description} </p>
       </div>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };
